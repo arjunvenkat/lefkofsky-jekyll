@@ -13,3 +13,20 @@ a, a:hover {
 #founders_text h2+p {
   padding-top: 10px;
 }
+
+@media (max-width: 767px) {
+  #overlay {
+    width: 100%;
+  }
+  #overlay div {
+    color: red;
+    display: block;
+    width: 100%;
+  }
+
+  .span2 {
+    display: none;
+  }
+}
+
+

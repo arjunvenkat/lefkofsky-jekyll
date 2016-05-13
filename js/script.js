@@ -25,10 +25,7 @@ function url_router(e) {
         case "founders-message":
             lff.setStopCycle(!0), about_pages();
             break;
-        case "liz-lefkofsky":
-            lff.setStopCycle(!0), about_pages();
-            break;
-        case "eric-lefkofsky":
+        case "liz-and-eric-lefkofsky":
             lff.setStopCycle(!0), about_pages();
             break;
         case "education":
@@ -55,14 +52,14 @@ function url_router(e) {
 }
 
 function home_page() {
-    $("#founders, #liz-lefkofsky, #eric-lefkofsky").hide(), $(".icon_nav_link.active").removeClass("active").children("span.active").animate({
+    $("#founders, #liz-and-eric").hide(), $(".icon_nav_link.active").removeClass("active").children("span.active").animate({
         opacity: "0"
     }).removeClass("active"), $(".grant_nav.active").fadeOut().removeClass("active")
 }
 
 function about_pages() {
     !menu_open && can_open && can_close && !$menu.hasClass("expanded") && toggle_menu_up(), menu_open = !0, can_open = !1, can_close = !1, $menu_items.children("a:not(.about)").hide(), $menu_items.children("a.about").show(), $("#home").click(function() {
-        $("#founders, #liz-lefkofsky, #eric-lefkofsky").hide(), $menu_items.children("a:not(.about)").show()
+        $("#founders, #liz-and-eric").hide(), $menu_items.children("a:not(.about)").show()
     }), $(".nano").nanoScroller({
         alwaysVisible: !0
     })
@@ -104,7 +101,7 @@ function contact_page() {
         var e = getParameterByName("success");
         "true" === e ? $("#contact_form").html("<h3>Thank you for sending your information!</h3>") : "false" === e && $("#contact_form").prepend("<h4>Something went wrong, please try again!</h4>")
     }
-    $("#founders, #liz-lefkofsky, #eric-lefkofsky").hide()
+    $("#founders, #liz-and-eric").hide()
 }
 
 function default_url() {
