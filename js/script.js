@@ -105,7 +105,7 @@ function contact_page() {
 }
 
 function default_url() {
-    can_open = !0, can_close = !0, menu_open && can_close && can_open && !$menu.hasClass("expanded") && toggle_menu_down(), $menu_items.children().show(), $("#founders, #liz-lefkofsky, #eric-lefkofsky").hide(), menu_open = !1
+    can_open = !0, can_close = !0, menu_open && can_close && can_open && !$menu.hasClass("expanded") && toggle_menu_down(), $menu_items.children().show(), $("#founders, #liz-and-eric").hide(), menu_open = !1
 }
 
 function getParameterByName(e) {

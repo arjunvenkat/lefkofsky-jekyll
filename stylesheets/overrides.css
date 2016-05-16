@@ -3,7 +3,6 @@ a, a:hover {
   text-decoration: underline;
 }
 
-
 .institution_text h2 {
   font-family: 'Muli', Helvetica, Arial, sans-serif;
   color: white;
@@ -14,19 +13,41 @@ a, a:hover {
   padding-top: 10px;
 }
 
+/* Responsive Overrides */
 @media (max-width: 767px) {
-  #overlay {
+  .container {
     width: 100%;
   }
-  #overlay div {
-    color: red;
-    display: block;
-    width: 100%;
-  }
-
-  .span2 {
+  .span2, #top_nav, #medical_squares, #education_squares, #human_squares, #arts_squares, .institution_image, .institution_image img {
     display: none;
   }
+  [class*="span"] {
+    margin-left: 0;
+  }
+  .span10.offset2 {
+    margin-left: 0;
+  }
+  .span10 {
+    width: 100%;
+  }
+  .institution_text {
+    width: 100%;
+    float: none;
+    margin: 0 0 0 0;
+  }
+  .nano .content {
+    padding-left: 10px;
+    position: relative;
+     overflow: auto;
+  }
+
+  #footer_container #lff_foot_text, #footer_container #lff_tag_text, .copyright_footer {
+      display: block;
+      padding-left: 30px;
+      margin-left: 0;
+  }
+
+  #nav
 }
 
 
