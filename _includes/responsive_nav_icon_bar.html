@@ -1,0 +1,22 @@
+<div class="menu-btn {{ page.category }} {{ page.subcategory }}">
+  <span class="pull-left nav-title">
+
+    {% if page.category == 'edu' %}
+      <img src="/img/nav/education_responsive.png" class="responsive-nav-icon" alt="education">
+      LFF - Education
+    {% elsif page.category == 'human' %}
+      <img src="/img/nav/human_rights_responsive.png" class="responsive-nav-icon" alt="human-rights">
+      LFF - Fundamental Human Rights
+    {% elsif page.category == 'medical' %}
+      <img src="/img/nav/medical_responsive.png" class="responsive-nav-icon" alt="medical">
+      LFF - Medical
+    {% elsif page.category == 'arts' %}
+      <img src="/img/nav/arts_culture_responsive.png" class="responsive-nav-icon" alt="arts-culture">
+      LFF - Arts & Culture
+    {% else %}
+      Lefkofsky Family Foundation
+    {% endif %}
+  </span>
+  <span class="pull-right">&#9776;<span>
+
+</div>

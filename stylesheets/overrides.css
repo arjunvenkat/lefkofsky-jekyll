@@ -9,14 +9,63 @@ a, a:hover {
   padding: 20px 20px 0 20px;
 }
 
-#founders_text h2+p {
+#founders_text h2+p, #liz_and_eric_text h2+p {
   padding-top: 10px;
 }
 
+#founders_text p {
+  font-size: 16px;
+}
+
+#liz_and_eric_text {
+  background-color: #F36F21;
+}
+
+.menu-btn {
+  display: none;
+}
+.responsive-institution-img {
+  display: none;
+}
+
+.mobile-only {
+  display: none;
+}
+
+.bottom-spacer {
+  padding-bottom: 12px;
+}
+
+.img-responsive {
+  width: 100%;
+}
+
 /* Responsive Overrides */
-@media (max-width: 767px) {
+@media (max-width: 940px) {
+  #main {
+    margin-bottom: 0px;
+  }
   .container {
     width: 100%;
+  }
+  .main_square {
+    display: none;
+  }
+  .desktop-only {
+    display: none;
+  }
+  .mobile-only {
+    display: block;
+  }
+  .institution_text h2.mobile-only {
+    padding-top: 0;
+    padding-bottom: 12px;
+  }
+  #overlay.show {
+    margin-bottom: 16px;
+    height: auto;
+    display: block;
+    position: relative;
   }
   .span2, #top_nav, #medical_squares, #education_squares, #human_squares, #arts_squares, .institution_image, .institution_image img {
     display: none;
@@ -29,25 +78,180 @@ a, a:hover {
   }
   .span10 {
     width: 100%;
+    display: block;
   }
   .institution_text {
     width: 100%;
+    height: auto;
     float: none;
     margin: 0 0 0 0;
   }
-  .nano .content {
-    padding-left: 10px;
-    position: relative;
-     overflow: auto;
+  .institution_text p {
+    padding: 0px;
   }
-
-  #footer_container #lff_foot_text, #footer_container #lff_tag_text, .copyright_footer {
+  #founders_text {
+    background-color: #9bb2d2;
+  }
+  #founders_text p {
+    padding: 0 0 10px 0;
+  }
+  #grants_text p {
+    padding: 0 0 10px 0;
+  }
+  .nano .content {
+    padding: 20px 30px 40px 50px;
+    position: relative;
+    overflow: auto;
+  }
+  .content label, .content h2, .content h3, .content h4, .content p, .content a, .content div  {
+    color: white;
+  }
+  #footer_container {
+    margin-bottom: 10px;
+  }
+  #footer_container #lff_foot_text {
+    font-size: 16px;
+    margin-bottom: 2px;
+    margin-top: 8px;
+  }
+  #footer_container #lff_tag_text {
+    font-size: 16px;
+  }
+  #footer_container #lff_foot_text, #footer_container #lff_tag_text, #footer_container .copyright_footer {
       display: block;
-      padding-left: 30px;
+      padding-left: 50px;
       margin-left: 0;
   }
 
-  #nav
+  /* Navbar styles */
+  .menu-btn {
+    background-color: #F36F21;
+    color: white;
+    display: block;
+    height: 24px;
+    margin-bottom: 2px;
+    padding: 14px 12px 10px;
+  }
+  .menu-btn.edu, .pushy-submenu.edu {
+    background-color: #E25926;
+  }
+  .menu-btn.human, .pushy-submenu.human {
+    background-color: #DEB408;
+  }
+  .menu-btn.medical, .pushy-submenu.medical {
+    background-color: #78A2B4;
+  }
+  .menu-btn.arts, .pushy-submenu.arts {
+    background-color: #A8C398;
+  }
+  .menu-btn.about.contact {
+    background-color: #9E7FBA;
+  }
+  .menu-btn.about.grants {
+    background-color: #9EC334;
+  }
+  .menu-btn.about.guidelines {
+    background-color: #754C29;
+  }
+  .menu-btn.about.founders {
+    background-color: #9bb2d2;
+  }
+
+  .menu-btn span {
+    font-size: 24px;
+  }
+
+  .menu-btn .nav-title {
+    margin-left: 40px;
+    font-size: 12px;
+    line-height: 24px;
+    font-family: 'Muli', Helvetica, Arial, sans-serif;
+  }
+
+  .responsive-nav-icon {
+    height: 18px;
+    padding-bottom: 4px;
+    margin-right: 8px;
+  }
+
+  .pushy {
+    background-color: #F36F21;
+  }
+  .pushy ul {
+    margin-left: 0;
+  }
+  .pushy li {
+    list-style-type: none;
+  }
+  .pushy-submenu, .pushy-link {
+    padding-left: 0;
+  }
+
+  .pushy-submenu ul {
+    padding-left: 0;
+  }
+  .pushy-submenu ul li {
+    border-bottom: 1px solid white;
+  }
+  .pushy-submenu ul li:first-child {
+    border
+    -top: 1px solid white;
+  }
+  .pushy-submenu ul a {
+    /*padding-left: 60px;*/
+  }
+
+  .pushy-submenu a , .pushy-link a {
+    font-size: 16px;
+    color: white;
+    display: inline-block;
+  }
+  .pushy-submenu a:hover , .pushy-link a:hover {
+    text-decoration: none;
+  }
+
+  .responsive-institution-img {
+    display: block;
+    text-align: center;
+    padding: 24px;
+  }
+  .responsive-institution-img img {
+    width: 50%;
+  }
+
+  /* Home */
+  .mobile_squares {
+    padding-left: 50px;
+    padding-right: 30px;
+    padding-top: 30px;
+    margin-bottom: 30px;
+  }
+
+  /* News page */
+  select#mobile-news-options {
+    width: 100%;
+  }
+  .news-post a {
+    display: inline-block;
+  }
+  .news-post h2, .news-post h3, .news-post h4 {
+    padding-bottom: 12px;
+  }
+
+  /* Liz and Eric Lefkofsky */
+  .institution_text h2 {
+    padding: 0 0 0 0;
+  }
+  .content + .content {
+    padding-top: 0;
+  }
+
+  /* Contact Us */
+  #contact_form {
+    float: none;
+    height: 400px;
+    background: inherit;
+  }
 }
 
 

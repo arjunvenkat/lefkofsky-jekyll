@@ -1,0 +1,85 @@
+<!doctype html>
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<html>
+
+  {% include head.html %}
+  <body>
+    {% include responsive_nav.html %}
+    <!-- Site Overlay -->
+    <div class="site-overlay"></div>
+
+    <div id="container" class="container">
+      <div id="main" class="row">
+
+
+        <div class="span2">
+          <div id="lff_menu_toggle">
+            <a id="home" href="/" title="Home"><img id="logo" src="/img/logo/logo_170.png" alt="LFF" /></a>
+            {% include left_nav.html %}
+          </div>
+        </div>
+        <div class="span10">
+          {% include responsive_nav_icon_bar.html %}
+          {% if  page.category != 'about' %}
+            <div class="responsive-institution-img"><img src="{{ page.thumb}}" alt=""></div>
+          {% endif %}
+          {% include top_nav.html %}
+          {% include squares.html %}
+        </div>
+       </div>
+
+     <!-- eo main -->
+     <div id="footer_container" class="row">
+       <div class="span10 offset2">
+          <h1 id="lff_foot_text">Lefkofsky Family Foundation</h1>
+          <h2 id="lff_tag_text">enhancing the quality of human life</h2>
+          <span class="copyright_footer">
+            &copy; Liz &amp; <a href="http://www.lightbank.com/team/eric-lefkofsky" target="_blank" title="Eric Lefkofsky">Eric Lefkofsky</a>
+          </span>
+        </div>
+
+         </div>
+         <!-- eo footer -->
+       </div>
+       <!-- eo container -->
+   </div>
+
+      <script src="/js/script.js?1406393932" type="text/javascript"></script>
+      <script src="/js/pushy.min.js" type="text/javascript"></script>
+      <script>
+      $(function(){
+        var postArray;
+        $.getJSON("http://lf-app.cgrune.com/api/posts", function(arr) {
+          postArray = arr;
+          var options = "";
+          $.each(postArray, function(index, postObject){
+            options += "<option value='"+ index + "'>" + postObject.title + "</option>";
+          });
+          $('#mobile-news-options').append(options);
+          console.log(postArray);
+          $('#mobile-news-options').change(postArray, function(){
+            var postIndex = $('#mobile-news-options').val()
+            console.log($('#mobile-news-options').val());
+            var postObject = postArray[postIndex]
+            $('.news-post').html("<h3>"+postObject.title+"</h3>");
+            $('.news-post').append(postObject.content);
+            $('.news-post p, .news-post span, .news-post a').removeAttr('style');
+            console.log(postObject);
+            // $.getJSON("http://lf-app.cgrune.com/api/posts", function(arr) {
+            //   postArray = arr;
+
+            // })
+          });
+        });
+      });
+
+
+      </script>
+
+  </body>
+
+</html>
+

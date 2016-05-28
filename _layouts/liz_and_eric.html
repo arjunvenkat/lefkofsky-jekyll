@@ -7,7 +7,11 @@
 
   {% include head.html %}
   <body>
-    <div class="container">
+    {% include responsive_nav.html %}
+    <!-- Site Overlay -->
+    <div class="site-overlay"></div>
+
+    <div id="container" class="container">
       <div id="main" class="row">
         <div class="span2">
           <div id="lff_menu_toggle">
@@ -16,6 +20,7 @@
           </div>
         </div>
         <div class="span10">
+          {% include responsive_nav_icon_bar.html %}
           {% include top_nav_liz_eric.html %}
           {% include squares.html %}
         </div>
@@ -36,6 +41,8 @@
        </div>
        <!-- eo container -->
    </div>
+      <script src="https://code.jquery.com/jquery-1.7.2.min.js"   integrity="sha256-R7aNzoy2gFrVs+pNJ6+SokH04ppcEqJ0yFLkNGoFALQ="   crossorigin="anonymous"></script>
       <script src="/js/script.js" type="text/javascript?1406393932"></script>
+      <script src="/js/pushy.min.js" type="text/javascript"></script>
   </body>
 </html>

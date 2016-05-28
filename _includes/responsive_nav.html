@@ -1,0 +1,28 @@
+<!-- Make sure the main container element has an id of container -->
+<!-- The hamburger icon is created with <div class="menu-btn">&#9776;</div> -->
+
+<nav class="pushy pushy-right">
+    <ul>
+        <!-- Submenu -->
+        <li class="pushy-submenu">
+            <a href="#">The Lefkofsky Foundation</a>
+            {% include mobile_about_links.html %}
+        </li>
+        <li class="pushy-submenu edu">
+            <a href="#"><img src="/img/nav/education_responsive.png" class="responsive-nav-icon" alt="education"> Education</a>
+            {% include education_links.html %}
+        </li>
+        <li class="pushy-submenu human">
+            <a href="#"><img src="/img/nav/human_rights_responsive.png" class="responsive-nav-icon" alt="human-rights"> Human Rights</a>
+            {% include human_links.html %}
+        </li>
+        <li class="pushy-submenu medical">
+            <a href="#"><img src="/img/nav/medical_responsive.png" class="responsive-nav-icon" alt="medical"> Medical</a>
+            {% include medical_links.html %}
+        </li>
+        <li class="pushy-submenu arts">
+            <a href="#"><img src="/img/nav/arts_culture_responsive.png" class="responsive-nav-icon" alt="arts-culture"> Arts & Culture</a>
+            {% include arts_links.html %}
+        </li>
+    </ul>
+</nav>

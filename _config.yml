@@ -14,3 +14,11 @@ url: "http://lefkofskyfoundation.com" # the base hostname & protocol for your si
 
 # Build settings
 markdown: kramdown
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      category: "about"

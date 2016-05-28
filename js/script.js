@@ -8175,7 +8175,14 @@ Validation.prototype = {
     }, function() {
         return "not valid"
     }), $(function() {
-        window.lff = new LFF, $(".main_square").each(function(e) {
+        var mobile_square_count = $(".mobile_main_square").size();
+        window.lff = new LFF, $(".mobile_main_square").each(function(e) {
+            if (mobile_square_count > 0) {
+                $(this).delay(50 * e).animate({
+                    backgroundColor: randColor()
+                }, "1000")
+            }
+        }),$(".main_square").each(function(e) {
             $(this).delay(50 * e).animate({
                 backgroundColor: randColor()
             }, "1000")
@@ -8337,4 +8344,21 @@ $(".icon_nav_link").hoverIntent(lff_icon_nav), $(".icon_nav_link").click(functio
     $(this).animate({
         opacity: 1
     })
+}), $(".mobile_squares").click(function() {
+    var squares = Shuffle($(".mobile_main_square"));
+    $.each(squares.slice(1,15), function(index, val){
+        $(val).delay(200 * index).animate({
+            opacity: 0.3
+        }, "2000", function(){
+            $(val).animate({
+                opacity: 1
+            })
+        })
+    })
 });
+
+function Shuffle(o) {
+    for(var j, x, i = o.length; i; j = parseInt(Math.random() * i), x = o[--i], o[i] = o[j], o[j] = x);
+    return o;
+};
+
