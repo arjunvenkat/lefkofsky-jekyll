@@ -8175,13 +8175,41 @@ Validation.prototype = {
     }, function() {
         return "not valid"
     }), $(function() {
-        var mobile_square_count = $(".mobile_main_square").size();
-        window.lff = new LFF, $(".mobile_main_square").each(function(e) {
-            if (mobile_square_count > 0) {
-                $(this).delay(50 * e).animate({
-                    backgroundColor: randColor()
-                }, "1000")
+        if ($('.mobile_squares').css('display') == 'block') {
+            var squaresPerRow = Math.floor(($(window).width() - 60)/39);
+            console.log(squaresPerRow);
+            var rows = 12;
+            var totalSquares = squaresPerRow * rows;
+            console.log(totalSquares);
+            for(i=0; i < totalSquares; i++) {
+                $('.mobile_squares').append('<div class="mobile_main_square"></div>');
             }
+            $(".mobile_main_square").click(function(e) {
+                $(this).animate({
+                    opacity: 0.3
+                }, "3000", function(){
+                    $(this).animate({
+                        opacity: 1
+                    })
+                })
+                var squares = Shuffle($(".mobile_main_square"));
+                $.each(squares.slice(0,15), function(index, val){
+                    $(val).delay(200 * index).animate({
+                        opacity: 0.3
+                    }, "2000", function(){
+                        $(val).animate({
+                            opacity: 1
+                        })
+                    })
+                }).promise().done(function(){
+                    $('.menu-btn').click();
+                });
+            });
+        }
+        window.lff = new LFF, $(".mobile_main_square").each(function(e) {
+            $(this).delay(50 * e).animate({
+                backgroundColor: randColor()
+            }, "1000")
         }),$(".main_square").each(function(e) {
             $(this).delay(50 * e).animate({
                 backgroundColor: randColor()
@@ -8344,21 +8372,11 @@ $(".icon_nav_link").hoverIntent(lff_icon_nav), $(".icon_nav_link").click(functio
     $(this).animate({
         opacity: 1
     })
-}), $(".mobile_squares").click(function() {
-    var squares = Shuffle($(".mobile_main_square"));
-    $.each(squares.slice(1,15), function(index, val){
-        $(val).delay(200 * index).animate({
-            opacity: 0.3
-        }, "2000", function(){
-            $(val).animate({
-                opacity: 1
-            })
-        })
-    })
 });
 
 function Shuffle(o) {
     for(var j, x, i = o.length; i; j = parseInt(Math.random() * i), x = o[--i], o[i] = o[j], o[j] = x);
     return o;
 };
+
 
