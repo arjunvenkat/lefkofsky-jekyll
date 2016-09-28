@@ -1,0 +1,74 @@
+institution:
+  -
+    name: AUSL (Academy for Urban School Leadership)
+    href: education/ausl
+    thumb: /img/education/thumbs/ausl.jpg
+    image: /img/education/ausl.jpg
+    url: http://auslchicago.org/
+    linkName: AUSL
+    text: |
+        AUSL (Academy for Urban School Leadership) was founded in 2001 to improve student achievement in Chicago's lowest performing schools. At the request of Chicago Public Schools, AUSL transforms chronically failing schools by providing new leaders, teachers, staff, additional programs and upgraded facilities. These enhancements lead to improvements in academic achievement, student engagement, and parental satisfaction. Currently, AUSL serves over 17,000 students in 29 Chicago Public Schools.  
+  -
+    name: After School Matters
+    href: education/after-school-matters
+    thumb: /img/education/thumbs/after-school-matters.jpg
+    image: /img/education/after-school-matters.jpg
+    url: http://www.afterschoolmatters.org/
+    text: |
+        After School Matters provides Chicago high school teens with high quality, out-of-school time opportunities to explore and develop their talents while gaining critical skills for work, college and beyond. Over the past two decades, close to 200,000 teens have participated in hands-on, project-based after-school and summer programs in the arts, science, sports, technology and communications. Programs take place at locations throughout the city including at Chicago public high schools, community-based organizations and downtown at the Gallery 37 Center for the Arts.
+  -
+    name: Citizen Schools
+    href: education/citizen-schools
+    thumb: /img/education/thumbs/citizen-schools.jpg
+    image: /img/education/citizen-schools.jpg
+    url: http://www.citizenschools.org/
+    text: |
+        Citizen Schools partners with middle schools to extend the learning day for children in low-income communities. For two to three additional hours each day, educators work with students to improve achievement, explore opportunities in their communities, and make learning exciting.  Twice a week, Citizen students participate in apprenticeships where they learn through hands-on experiences about potential careers. 
+  -
+    name: OneGoal
+    href: education/one-goal
+    thumb: /img/education/thumbs/one-goal.jpg
+    image: /img/education/one-goal.jpg
+    url: http://www.onegoalgraduation.org/
+    text: |
+        OneGoal implements a results-driven model, which proves that with the support of a strong college persistence program and a dedicated teacher, students can dramatically improve their academic performance and become competitive - and successful - college students.  Today, of the 87% of OneGoal students enrolled in college, 85% are currently persisting in college or have already graduated. 
+  -
+    name: Teach for America
+    href: education/teach-for-america
+    thumb: /img/education/thumbs/teach-america.jpg
+    image: /img/education/teach-america.jpg
+    url: https://www.teachforamerica.org/where-we-work/chicago
+    text: |
+        Teach for America - Chicago is growing the movement of leaders who work to ensure that all students can attain an excellent education.  First, they recruit outstanding and diverse leaders to commit to teach in low-income schools.  Second, they support and accelerate the leadership of their alumni in and outside of schools to fight for educational equity. Currently, they have 600 corps members, 850 alumni teachers, and 63 principals reaching 50,000 students daily. Overall, more than 70% of alumni are working full-time in the sector and have become a force of change both in schools and through the network of organizations that support and advocate for great schools.
+  -
+    name: The Ounce of Prevention Fund
+    href: education/ounce-of-prevention
+    thumb: /img/education/thumbs/ounce.jpg
+    image: /img/education/ounce.jpg
+    url: http://www.ounceofprevention.org/home/index.php
+    text: |
+        Collaboration has the power to make significant system changes that could not be accomplished when working in isolation. The Ounce of Prevention Fund, working to ensure that quality early childhood experiences lay the foundation for future success, has partnered with the University of Chicago Urban Education Institute, who strives to prepare all kids for college and career success, to develop the Birth-to-College Collaborative. The goals of this cutting-edge initiative are to improve outcomes for the 710 low-income children (birth to age eight) currently being served through this initiative, and to leverage this collaborative to transform the public education system for vulnerable children across the country.
+  -
+    name: Urban Alliance
+    href: education/urban-alliance
+    thumb: /img/education/thumbs/ua.jpg
+    image: /img/education/ua.jpg
+    url: http://www.theurbanalliance.org/
+    text: |
+        Urban Alliance empowers under-resourced youth to aspire, work and succeed through paid internships, formal training, and mentorship.  This is the only year-long employment program for high school seniors in Chicago.  After being selected through a rigorous selection process, Urban Alliance interns begin training for job placement. Once placed in a job, students work part-time with a job partner in the real corporate world.  The Urban Alliance interns continue full time in their job placement throughout the summer after high school graduation.
+  -
+    name: Young Chicago Authors
+    href: education/young-chicago-authors
+    thumb: /img/education/thumbs/yca.jpg
+    image: /img/education/yca.jpg
+    url: http://youngchicagoauthors.org/blog/
+    text: |
+        Young Chicago Authors (YCA) believes that through words, young people can promote tolerance and remove barriers, transforming their lives and society.  YCA cultivates this belief by offering free weekly writing sessions, workshops, and in-school residency programs.  Louder Than a Bomb, the largest original poetry festival for youth in the world, is YCA’s annual event where some 900 students from more than 100 schools compete in both individual and group performances. 
+  - 
+    name: Young Women's Leadership Charter School
+    href: education/young-womens-leadership-charter-school
+    thumb: /img/education/thumbs/young-women.jpg
+    image: /img/education/young-women.jpg
+    url: http://www.ywlcs.org/
+    text: |
+        Young Women's Leadership Charter School (YWLCS) is the only all-girls public school in Chicago. Each year, YWLCS prepares nearly 350 urban girls in seventh to twelfth grade, with the necessary skills to graduate high school, continue through post-secondary education, and go on to lead fulfilling and productive lives. The annual pre-college shopping trip to help new graduates stock their freshman dorm rooms with the basic necessities is a favorite project of the LFF. 
