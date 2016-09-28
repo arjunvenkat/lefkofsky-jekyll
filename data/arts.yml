@@ -1,113 +1,19 @@
 institution:
   -
-    name: Art Institute of Chicago
-    href: arts-culture/art-institue-of-chicago
+    thumb: /img/arts/thumbs/anderson-ranch.jpg
+  -
     thumb: /img/arts/thumbs/art-institute-chicago.jpg
-    image: /img/arts/art-institute-chicago.jpg
-    url: http://www.artic.edu/
-    text: |
-        Founded in 1879 as both a museum and school, the Art Institute of Chicago has long been recognized as one of the leading fine-arts institutions in the country. The collection encompasses more than 5,000 years of human expression and houses more than 260,000 works of art. Its mission is to collect, preserve, and interpret these pieces for the enjoyment of the 1.5 million people that visit the museum annually. In 2009, the Modern Wing was opened and provides a spectacular new home, designed by Renzo Piano, for the museum’s stellar collection of 20th and 21st century art.
   -
-    name: Aspen Art Museum
-    href: arts-culture/aspen-art-museum
     thumb: /img/arts/thumbs/aspen-art-museum.jpg
-    image: /img/arts/aspen-art-museum.jpg
-    url: http://aspenartmuseum.org/
-    text: |
-        In August 2014, the Aspen Art Museum will open a newly constructed downtown facility to further its institutional mission and foster a program of art, dialogue and creativity. To build the new museum, they have enlisted architect Shigeru Ban, who is widely respected for creating environmentally sound architecture. In its new building, the Aspen Art Museum will continue to be a non-collecting contemporary art institution featuring exhibitions of drawings, paintings, sculptures, multimedia installations, and electronic media.
   -
-    name: Chicago Botanic Garden
-    href: arts-culture/chicago-botanic-garden
-    thumb: /img/arts/thumbs/chicago-botanic-garden.jpg
-    image: /img/arts/chicago-botanic-garden.jpg
-    url: http://www.chicagobotanic.org/
-    text: |
-        With 26 spectacular gardens on 385 acres, the Chicago Botanic Garden is a place of ever-changing beauty, with nearly 1 million visitors per year. The Garden, which opened more than 40 years ago, began as a picturesque place to stroll but and has matured into one of the world’s great living museums and conservation science centers. The Garden is a place where classrooms have no desks or walls, and where students discover the ways and wonders of plants, inside and outdoors.
-  -
-    name: Joffrey Ballet
-    href: arts-culture/joffrey-ballet
-    thumb: /img/arts/thumbs/joffrey-ballet.jpg
-    image: /img/arts/joffrey-ballet.jpg
-    url: http://www.joffrey.org/
-    text: |
-        The Joffrey Ballet has been hailed as “America’s Company of Firsts.” Their long list of firsts include the first dance company to perform at the White House, first to appear on American television, first to set a ballet to rock music and first company to appear on Time magazine. Founded by visionary teacher Robert Joffrey in 1956, the Joffrey Ballet expresses a unique, inclusive perspective on dance, proudly reflecting the diversity of America.
-  -
-    name: Lincoln Park Zoo
-    href: arts-culture/lincoln-park-zoo
-    thumb: /img/arts/thumbs/lincoln-park-zoo.jpg
-    image: /img/arts/lincoln-park-zoo.jpg
-    url: http://www.lpzoo.org/
-    text: |
-        The Lincoln Park Zoo is dedicated to connecting people with nature by providing a free, family-oriented wildlife experience. A leader in conservation science both globally and locally, the Zoo exemplifies the highest quality animal care and educational outreach. The not-for-profit zoo is one of the only free zoos in the nation. In February 2013, the zoo launched the Hurvis Center for Learning Innovation and Collaboration.  This center will use cutting edge research and programs to explore how zoos, aquariums and museums can most effectively engage their audiences.
-  -
-    name: Museum of Contemporary Art
-    href: arts-culture/mca
-    thumb: /img/arts/thumbs/mca.jpg
-    image: /img/arts/mca.jpg
-    url: http://www.mcachicago.org/
-    text: |
-        The Museum of Contemporary Art Chicago (MCA) offers exhibitions of the most thought-provoking art created since 1945. The museum’s collection is composed of thousands of objects of Post-World War II visual art. The MCA aspires to engage a broad and diverse audience, create a sense of community, and be a place for contemplation, stimulation, and discussion about contemporary art and culture.
-  -
-    name: Museum of Science and Industry
-    href: arts-culture/museum-science-industry
-    thumb: /img/arts/thumbs/science-industry.jpg
-    image: /img/arts/science-industry.jpg
-    url: http://www.msichicago.org/
-    text: |
-        Chicago’s Museum of Science and Industry (MSI) offers the opportunity to tour a World War II sub, experience live science in action, and feel the physics of natural phenomena like tornados and avalanches.  Through its Center for the Advancement of Science Education, MSI also aspires to a larger vision: to inspire and motivate children to achieve their full potential in science, technology, medicine, and engineering.  MSI was voted one of the “Best Museums in the U.S.” by the World Almanac for Kids, one of the “Seven Wonders of Chicago” by the Chicago Tribune, and named one of the “Top 15 Museums in the World” by Life magazine.
-  -
-    name: Ravinia Festival
-    href: arts-culture/ravinia-festival
-    thumb: /img/arts/thumbs/ravinia-festival.jpg
-    image: /img/arts/ravinia-festival.jpg
-    url: http://www.ravinia.org/
-    text: |
-        Since 1904, Ravinia Festival has been Chicago’s sound of summer. The outdoor music venue attracts nearly 600,000 visitors annually.  Patrons come to meet up with friends, picnic and enjoy the world-class musical performances. As a nonprofit organization, Ravinia has identified education initiatives for underserved Chicagoland communities as a key mission. Over 75,000 people are served through Ravinia's Reach*Teach*Play programs each year, ensuring that great music remains accessible to all.
-  -
-    name: Shedd Aquarium
-    href: arts-culture/shedd-aquarium
-    thumb: /img/arts/thumbs/shedd-aquarium.jpg
-    image: /img/arts/shedd-aquarium.jpg
-    url: http://www.sheddaquarium.org/
-    text: |
-        Each year, approximately 2 million guests come to the Shedd Aquarium to observe the penguins in the Polar Play Zone, view the sharks in the Caribbean Reef, and watch dolphins and beluga whales perform during the Aquatic Show. Through the community access program the Shedd provides an opportunity for Chicago residents to experience the world-class collection of aquatic animals, exhibits, and educational programs.
-  -
-    name: Steppenwolf Theater
-    href: arts-culture/steppenwolf-theater
-    thumb: /img/arts/thumbs/steppenwolf.jpg
-    image: /img/arts/steppenwolf.jpg
-    url: https://www.steppenwolf.org/
-    text: |
-        Steppenwolf Theatre Company is a Tony Award-winning Chicago theatre company founded in 1974 by a collective group of dedicated actors in a church basement.  Nearly four decades later, the Company has become the nation’s premier ensemble theater - redefining the landscape of acting and performance. Every year the Company produces 16 plays and hosts 700 performances, readings and other events. To support their ever-growing audience and education programs, Steppenwolf will begin work on a new facility with the completion date in development.
-  -
-    name: The Aspen Institute
-    href: arts-culture/aspen-institue
     thumb: /img/arts/thumbs/aspen-institute.jpg
-    image: /img/arts/aspen-institute.jpg
-    url: http://www.aspeninstitute.org/
-    text: |
-        The Aspen Institute is an educational and policy studies organization with a mission to foster leadership and to provide a nonpartisan venue for dealing with critical issues. The Aspen Institute delivers on its mission by engaging in public policy work, its young-leader fellowship programs, and thought provoking seminars, public conferences, and events. The annual Aspen Ideas Festival gathers some of the most interesting thinkers and leaders from around world to discuss their work, issues that inspire them, and their ideas.
   -
-    name: The Field Museum
-    href: arts-culture/the-field-museum
-    thumb: /img/arts/thumbs/the-field-museum.jpg
-    image: /img/arts/the-field-museum.jpg
-    url: http://fieldmuseum.org/
-    text: |
-        The Field Museum, which opened in 1893, maintains its status as a premier natural history museum. The diverse, high quality permanent exhibits, which attract up to two millions visitors annually, range from the earliest fossils to past and current cultures from around the world to interactive programming demonstrating today’s urgent conservation needs.
+    thumb: /img/arts/thumbs/chicago-ideas.png
   -
-    name: The Renaissance Society
-    href: arts-culture/renaissance-society
-    thumb: /img/arts/thumbs/renaissance-society.jpg
-    image: /img/arts/renaissance-society.jpg
-    url: http://renaissancesociety.org/site/
-    text: |
-        The Renaissance Society maintains an international reputation as one of the finest resources for contemporary art. The Renaissance Society's mission is to encourage the growth and understanding of contemporary art through exhibitions, publications and events. The Society presents art seldom seen in the Midwest. At the same time, the museum is equally committed to fostering the development of Chicago's own rich artistic resources.
+    thumb: /img/arts/thumbs/mca.jpg
   -
-    name: Writers Theatre
-    href: arts-culture/writers-theatre
-    thumb: /img/arts/thumbs/writers-theatre.jpg
-    image: /img/arts/writers-theatre.jpg
-    url: http://www.writerstheatre.org/
-    text: |
-        For more than 20 years, Writers Theatre has captivated Chicagoland audiences with inventive interpretations of classic work, a bold approach to contemporary theatre and a dedication to creating the most intimate theatrical experience. Acclaimed by The Wall Street Journal as one of the top half-dozen regional theatres in the country, Writers has offered more than 90 productions, including 14 world premieres. Set to open in early 2016 the new Theatre Center, designed by internationally renowned Studio Gang Architects led by Jeanne Gang, is expected to enhance the visitors experience and the theatre’s ability to bring even more sophisticated, high-quality productions to their patrons.
+    thumb: /img/arts/thumbs/science-industry.jpg
+  -
+    thumb: /img/arts/thumbs/ravinia-festival.jpg
+  -
+    thumb: /img/arts/thumbs/steppenwolf.jpg
