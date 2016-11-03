@@ -25,7 +25,10 @@ function url_router(e) {
         case "founders-message":
             lff.setStopCycle(!0), about_pages();
             break;
-        case "liz-and-eric-lefkofsky":
+        case "about-eric-lefkofsky":
+            lff.setStopCycle(!0), about_pages();
+            break;
+        case "about-liz-lefkofsky":
             lff.setStopCycle(!0), about_pages();
             break;
         case "education":
@@ -52,14 +55,14 @@ function url_router(e) {
 }
 
 function home_page() {
-    $("#founders, #liz-and-eric").hide(), $(".icon_nav_link.active").removeClass("active").children("span.active").animate({
+    $("#founders, #about-eric, #about-liz").hide(), $(".icon_nav_link.active").removeClass("active").children("span.active").animate({
         opacity: "0"
     }).removeClass("active"), $(".grant_nav.active").fadeOut().removeClass("active")
 }
 
 function about_pages() {
     !menu_open && can_open && can_close && !$menu.hasClass("expanded") && toggle_menu_up(), menu_open = !0, can_open = !1, can_close = !1, $menu_items.children("a:not(.about)").hide(), $menu_items.children("a.about").show(), $("#home").click(function() {
-        $("#founders, #liz-and-eric").hide(), $menu_items.children("a:not(.about)").show()
+        $("#founders, #about-eric, #about-liz").hide(), $menu_items.children("a:not(.about)").show()
     }), $(".nano").nanoScroller({
         alwaysVisible: !0
     })
@@ -101,11 +104,11 @@ function contact_page() {
         var e = getParameterByName("success");
         "true" === e ? $("#contact_form").html("<h3>Thank you for sending your information!</h3>") : "false" === e && $("#contact_form").prepend("<h4>Something went wrong, please try again!</h4>")
     }
-    $("#founders, #liz-and-eric").hide()
+    $("#founders, #about-liz, #about-eric").hide()
 }
 
 function default_url() {
-    can_open = !0, can_close = !0, menu_open && can_close && can_open && !$menu.hasClass("expanded") && toggle_menu_down(), $menu_items.children().show(), $("#founders, #liz-and-eric").hide(), menu_open = !1
+    can_open = !0, can_close = !0, menu_open && can_close && can_open && !$menu.hasClass("expanded") && toggle_menu_down(), $menu_items.children().show(), $("#founders, #about-liz, #about-eric").hide(), menu_open = !1
 }
 
 function getParameterByName(e) {

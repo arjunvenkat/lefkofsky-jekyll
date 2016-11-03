@@ -21,6 +21,14 @@ a, a:hover {
   background-color: #F36F21;
 }
 
+#about_eric_text {
+  background-color: #78A2B4;
+}
+
+#about_liz_text {
+  background-color: #F36F21;
+}
+
 #liz_and_eric_text h2 {
   padding-left: 29px;
 }
@@ -165,6 +173,12 @@ a, a:hover {
   .menu-btn.about.founders {
     background-color: #9bb2d2;
   }
+  .menu-btn.about.eric {
+    background-color: #78A2B4;
+  }
+  .menu-btn.about.liz {
+    background-color: #F36F21;
+  }
 
   .menu-btn span {
     font-size: 24px;
@@ -246,6 +260,7 @@ a, a:hover {
   .news-post h2, .news-post h3, .news-post h4 {
     padding-bottom: 12px;
   }
+
 
   /* Liz and Eric Lefkofsky */
   .institution_text h2 {
