@@ -4,7 +4,9 @@
   <link href="/favicon.ico" rel="icon" type="image/ico" />
 
   <title>{{ page.title }}</title>
-  <meta name="description" content="Lefkofsky Family Foundation">
+  {% if page.metaDesc != null %}
+  <meta name="description" content="{{ page.metaDesc }}">
+  {% endif %}
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no">
 
   <link href="/stylesheets/bootstrap.css?v=2" rel="stylesheet" type="text/css" />
