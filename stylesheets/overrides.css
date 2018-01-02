@@ -52,6 +52,18 @@ a, a:hover {
   width: 100%;
 }
 
+/* Home */
+
+#project_thumbnail {
+  display: inline-block;
+}
+
+.thumb-alignment-helper {
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+}
+
 /* Embed videos */
 .videoWrapper {
 	position: relative;
@@ -270,6 +282,7 @@ a, a:hover {
     padding-top: 30px;
     margin-bottom: 30px;
   }
+}
 
   /* News page */
   select#mobile-news-options {
