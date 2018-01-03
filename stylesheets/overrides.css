@@ -72,6 +72,7 @@ a, a:hover {
 	height: 0;
   margin-left: 25px;
 }
+
 .videoWrapper iframe {
 	position: absolute;
 	top: 0;
@@ -282,6 +283,10 @@ a, a:hover {
     padding-top: 30px;
     margin-bottom: 30px;
   }
+
+  .videoWrapper {
+    margin-left: 0px;
+  }
 }
 
   /* News page */
@@ -317,8 +322,6 @@ a, a:hover {
     background: inherit;
   }
 
-  .videoWrapper {
-    margin-left: 0px;
-  }
+
 
 }
