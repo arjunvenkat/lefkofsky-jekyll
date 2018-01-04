@@ -68,3 +68,25 @@ grant_thumbnail_name: "CONTACT US"
       </form>
     </div>
 </div>
+<script
+  src="https://code.jquery.com/jquery-3.2.1.slim.js"
+  integrity="sha256-tA8y0XqiwnpwmOIl3SGAcFl2RvxHjA8qp0+1uCGmRmg="
+  crossorigin="anonymous"></script>
+<script>
+  $("form").submit(function(event){
+    console.log(event);
+    event.preventDefault();
+    var data = $(this).serialize();
+    var url =  $(this).attr( "action" );
+    // Send the data using post
+    var posting = $.post( url, data );
+    // Put the results in a div
+    posting.done(function( data ) {
+      if (data.status == "success") {
+        $('#contact_form').empty().append("<h3>Thank you for your message!</h3>")
+      } else {
+        $('#contact_form').empty().append("<h3>There was a problem submitting your form. Please refresh your browser and try again, or send us an email.</h3>")
+      }
+    });
+  })
+</script>
