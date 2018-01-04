@@ -52,7 +52,7 @@
       <script>
       $(function(){
         var postArray;
-        $.getJSON("http://lf-app.cgrune.com/api/posts", function(arr) {
+        $.getJSON("https://lff-admin.herokuapp.com/api/posts", function(arr) {
           postArray = arr;
           var options = "";
           $.each(postArray, function(index, postObject){
@@ -82,4 +82,3 @@
   </body>
 
 </html>
-
