@@ -324,4 +324,10 @@ a, a:hover {
     padding-left: 0px;
   }
 
+  /* Contact form */
+  #submit {
+    float: right;
+    text-decoration: none;
+  }
+
 }

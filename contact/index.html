@@ -62,31 +62,46 @@ grant_thumbnail_name: "CONTACT US"
             <input type="hidden" id="honeypot" name="honeypot" />
           </li>
           <li class="clearfix">
-            <input type="submit" value="Submit" id="submit" class="btn" />
+            <a id="submit" class="btn btn-default">Submit</a>
+            <!-- <input type="submit" value="Submit" id="submit" class="btn" /> -->
           </li>
         </ul>
       </form>
     </div>
 </div>
-<script
-  src="https://code.jquery.com/jquery-3.2.1.slim.js"
-  integrity="sha256-tA8y0XqiwnpwmOIl3SGAcFl2RvxHjA8qp0+1uCGmRmg="
-  crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-1.7.1.min.js"   integrity="sha256-iBcUE/x23aI6syuqF7EeT/+JFBxjPs5zeFJEXxumwb0="   crossorigin="anonymous"></script>
 <script>
-  $("form").submit(function(event){
-    console.log(event);
+  $("#submit").click(function(event){
     event.preventDefault();
-    var data = $(this).serialize();
-    var url =  $(this).attr( "action" );
-    // Send the data using post
-    var posting = $.post( url, data );
-    // Put the results in a div
-    posting.done(function( data ) {
-      if (data.status == "success") {
-        $('#contact_form').empty().append("<h3>Thank you for your message!</h3>")
-      } else {
-        $('#contact_form').empty().append("<h3>There was a problem submitting your form. Please refresh your browser and try again, or send us an email.</h3>")
+    var $form = $('#lff_form');
+    var validated = true;
+    $form.find('input, textarea').each(function(index, el) {
+      if (el.value == "" && el.id != 'org_name' && el.id != 'honeypot') {
+        validated = false;
       }
-    });
+      if (el.id != 'honeypot') {
+        if (el.value != "") {
+          validate = false;
+        }
+      }
+    })
+    $form.find('.vanadium-invalid').each(function(index, el) {
+      validated = false;
+    })
+    console.log(validated)
+    if (validated == true) {
+      var data = $form.serialize();
+      var url =  $form.attr( "action" );
+      // Send the data using post
+      var posting = $.post( url, data );
+      // Put the results in a div
+      posting.done(function( data ) {
+        if (data.status == "success") {
+          $('#contact_form').empty().append("<h3>Thank you for your message!</h3>")
+        } else {
+          $('#contact_form').empty().append("<h3>There was a problem submitting your form. Please refresh your browser and try again, or send us an email.</h3>")
+        }
+      });
+    }
   })
 </script>

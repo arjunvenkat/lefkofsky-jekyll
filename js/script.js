@@ -8059,7 +8059,7 @@ Validation.prototype = {
             }, "Please enter a valid date."],
             ["email", function(e) {
                 return Vanadium.validators_types.empty.test(e) || /\w{1,}[@][\w\-]{1,}([.]([\w\-]{1,})){1,3}$/.test(e)
-            }, "Please enter a valid email address. For example john@domain.com"],
+            }, "Please enter a valid email"],
             ["url", function(e) {
                 return Vanadium.validators_types.empty.test(e) || /^(http|https|ftp):\/\/(([A-Z0-9][A-Z0-9_-]*)(\.[A-Z0-9][A-Z0-9_-]*)+)(:(\d+))?\/?/i.test(e)
             }, "Please enter a valid URL."],
@@ -8381,5 +8381,3 @@ function Shuffle(o) {
     for(var j, x, i = o.length; i; j = parseInt(Math.random() * i), x = o[--i], o[i] = o[j], o[j] = x);
     return o;
 };
-
-
