@@ -102,7 +102,7 @@ function contact_page() {
     if ("" === getParameterByName("success"));
     else {
         var e = getParameterByName("success");
-        "true" === e ? $("#contact_form").html("<h3>Thank you for sending your information!</h3>") : "false" === e && $("#contact_form").prepend("<h4>Something went wrong, please try again!</h4>")
+        "true" === e ? $("#contact_form").html("<h3>Thank you for sending your information!</h3>") : "false" === e && $("#contact_form").html("<h3>Something went wrong, please refresh and try again!</h3>")
     }
     $("#founders, #about-liz, #about-eric").hide()
 }
