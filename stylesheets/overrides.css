@@ -330,4 +330,8 @@ a, a:hover {
     text-decoration: none;
   }
 
+  #extra_info {
+    display: none; 
+  }
+
 }
