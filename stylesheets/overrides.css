@@ -87,6 +87,39 @@ a, a:hover {
   margin-left: 0;
 }
 
+#holder {
+  height: 520px;
+}
+
+.checkbox {
+  color: white;
+  width: 67%;
+  float: right;
+}
+
+#contact_form form input[type="checkbox"] {
+  width: auto;
+  margin-left: 0;
+  margin-right: 8px;
+  float: left;
+}
+
+.checkbox-label-text {
+  margin-left: 8px;
+}
+
+#contact_form form input[type="submit"] {
+  margin-top: 10px;
+}
+
+#contact_form form .checkbox-label {
+  height: 30px;
+}
+
+.clear {
+  clear: both;
+}
+
 
 /* Responsive Overrides */
 @media (max-width: 1200px) {
@@ -95,6 +128,17 @@ a, a:hover {
   }
   .videoWrapper {
     margin-left: 18px;
+  }
+  #holder {
+    height: 420px;
+  }
+
+  #contact_form form input[type="checkbox"] {
+  }
+  .checkbox {
+    color: white;
+    width: 58%;
+    float: right;
   }
 }
 @media (max-width: 940px) {
@@ -331,7 +375,7 @@ a, a:hover {
   }
 
   #extra_info {
-    display: none; 
+    display: none;
   }
 
 }
