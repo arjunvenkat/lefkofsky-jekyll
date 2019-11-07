@@ -52,6 +52,8 @@ a, a:hover {
   width: 100%;
 }
 
+
+
 /* Home */
 
 #project_thumbnail {
@@ -141,6 +143,7 @@ a, a:hover {
     float: right;
   }
 }
+
 @media (max-width: 940px) {
   #main {
     margin-bottom: 0px;
@@ -341,6 +344,7 @@ a, a:hover {
   .videoWrapper {
     margin-left: 0px;
   }
+
 }
 
   /* News page */
