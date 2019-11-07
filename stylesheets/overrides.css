@@ -89,7 +89,7 @@ a, a:hover {
   margin-left: 0;
 }
 
-#holder {
+#overlay.contact-overlay {
   height: 520px;
 }
 
@@ -131,7 +131,7 @@ a, a:hover {
   .videoWrapper {
     margin-left: 18px;
   }
-  #holder {
+  #overlay.contact-overlay {
     height: 420px;
   }
 
