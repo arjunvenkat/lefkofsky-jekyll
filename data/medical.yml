@@ -1,6 +1,14 @@
 institution:
   -
+    thumb: /img/medical/thumbs/addf.jpg
+  -
     thumb: /img/medical/thumbs/abta.jpg
+  -
+    thumb: /img/medical/thumbs/childrens-memorial-hospital.jpg
+  -
+    thumb: /img/medical/thumbs/cleaveland-clinig.png
+  -
+    thumb: /img/medical/thumbs/childrens-memorial-hospital.jpg
   -
     thumb: /img/medical/thumbs/damon-runyon.jpg
   -
@@ -8,16 +16,6 @@ institution:
   -
     thumb: /img/medical/thumbs/johns-hopkins.jpg
   -
-    thumb: /img/medical/thumbs/childrens-memorial-hospital.jpg
+    thumb: /img/medical/thumbs/lustgarten-foundation.jpg
   -
-    thumb: /img/medical/thumbs/md-anderson.png
-  -
-    thumb: /img/medical/thumbs/nwu-lurie-cancer-center.gif
-  -
-    thumb: /img/medical/thumbs/ric.jpg?1
-  -
-    thumb: /img/medical/thumbs/stanford.png
-  -
-    thumb: /img/medical/thumbs/u-michigan.png
-  -
-    thumb: /img/medical/thumbs/weill-cornell.jpg
+    thumb: /img/medical/thumbs/mayo-clinic.png

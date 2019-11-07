@@ -221,6 +221,7 @@ a, a:hover {
       display: block;
       padding-left: 50px;
       margin-left: 0;
+      padding-top: 12px;
   }
 
   /* Navbar styles */

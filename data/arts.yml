@@ -1,19 +1,29 @@
 institution:
   -
-    thumb: /img/arts/thumbs/anderson-ranch.jpg
-  -
     thumb: /img/arts/thumbs/art-institute-chicago.jpg
+  -
+    thumb: /img/arts/thumbs/mca.jpg
+  -
+    thumb: /img/arts/thumbs/steppenwolf.jpg
+  -
+    thumb: /img/arts/thumbs/anderson-ranch.jpg
   -
     thumb: /img/arts/thumbs/aspen-art-museum.jpg
   -
     thumb: /img/arts/thumbs/aspen-institute.jpg
   -
+    thumb: /img/arts/thumbs/cab.png
+  -
     thumb: /img/arts/thumbs/chicago-ideas.png
   -
-    thumb: /img/arts/thumbs/mca.jpg
+    thumb: /img/arts/thumbs/joffrey-ballet.jpg
+  -
+    thumb: /img/arts/thumbs/mpf.jpg
   -
     thumb: /img/arts/thumbs/science-industry.jpg
   -
     thumb: /img/arts/thumbs/ravinia-festival.jpg
   -
-    thumb: /img/arts/thumbs/steppenwolf.jpg
+    thumb: /img/arts/thumbs/renaissance-society.jpg
+  -
+    thumb: /img/arts/thumbs/whitney-art-museum.gif
